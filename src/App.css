@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+.Home{
+  background: rgb(1, 21, 43);
+  color: white;
+  height: 100vh;
+
+
+}
+.main-container{
+  display: flex;
+}
+
+main{
+  padding: 20px
+}
+
+.title{
+  font-size: 30px;
+}
+
+.routes{
+  color: white;
+}
+
+.top_section{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding: 15px 10px;
+}
+
+.logo{
+  font-size: 20px;
+  line-height: 0;
+}
+
+.bars{
+  display: flex;
+  font-size: 20px;
+  line-height: 0;
+}
+
+.Search{
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  height: 30px;
+  padding: 10px;
+}
+
+.Search input{
+  border: none;
+ 
+  margin-left: 10px;
+  border-radius: 5px;
+  background: rgb(238, 238, 238);
+
+
+}
+
+.link{
+  display: flex;
+  color: white;
+  gap: 10px;
+  padding: 5px 10px;
+  border-right: 4px solid transparent;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0735, 0.045);
+}
+
+.link:hover{
+  border-right: 4px solid white;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0735, 0.045);
+  background: #022046;
+}
+
+.link_text{
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+.active{
+  border-right: 4px solid white;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0735, 0.045);
+  background: #022046;
+}
+
